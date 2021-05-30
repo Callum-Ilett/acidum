@@ -1,8 +1,6 @@
 import styled from "styled-components";
 import { Section, Service } from "components";
 
-// src = "http://acidum.like-themes.com/wp-content/uploads/2017/10/vinyl.png";
-
 const services = [
   {
     id: 1,
@@ -16,7 +14,7 @@ const services = [
     image: "hookah.png",
     path: "/hookah",
   },
-  { id: 3, name: "Snacks", image: "restaurant_new.png", path: "/snacks" },
+  { id: 3, name: "Snacks", image: "snacks.png", path: "/snacks" },
   { id: 4, name: "Bar", image: "wine.png", path: "/bar" },
   { id: 5, name: "Lounge Area", image: "armchair.png", path: "/lounge-area" },
   { id: 6, name: "Live DJ", image: "vinyl.png", path: "/live-dj" },

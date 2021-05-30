@@ -10,10 +10,7 @@ interface Props {
 const Service = ({ name, image }: Props) => {
   return (
     <Article>
-      <Image
-        src={`http://acidum.like-themes.com/wp-content/uploads/2017/10/${image}`}
-        alt={name}
-      />
+      <Image src={`/images/services/${image}`} alt={name} />
 
       <Description>
         <Name>{name}</Name>
