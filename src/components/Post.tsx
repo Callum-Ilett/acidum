@@ -18,16 +18,8 @@ interface Props {
 }
 
 const Post = (props: Props) => {
-  const {
-    id,
-    thumbnail,
-    category,
-    title,
-    content,
-    timestamp,
-    views,
-    comments,
-  } = props;
+  const { thumbnail, category, title, content, timestamp, views, comments } =
+    props;
 
   return (
     <Article>
